@@ -1,0 +1,60 @@
+body {
+    background-color: #eee;
+    width: 100%;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.truchet-grid {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.truchet-row {
+    display: flex;
+}
+
+.truchet-cell {
+    display: flex;
+    width: 100px;
+    height: 100px;
+    background-color: #fff;
+}
+
+.purple {
+    width: 0;
+    height: 0;
+    border-top: 100px solid #5D3FD3;
+    border-right: 100px solid transparent;
+}
+
+.black {
+    width: 0;
+    height: 0;
+    border-top: 100px solid #000;
+    border-right: 100px solid transparent;
+}
+
+.white {
+    width: 0;
+    height: 0;
+    border-top: 100px solid #fff;
+    border-right: 100px solid transparent;
+}
+
+/* rotate the base truchet tile for patterns */
+.rotate-90 {
+    transform: rotate(90deg);
+}
+
+.rotate-180 {
+    transform: rotate(180deg);
+}
+
+.rotate-270 {
+    transform: rotate(270deg);
+}
