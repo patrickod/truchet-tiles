@@ -1,7 +1,7 @@
 window.addEventListener("DOMContentLoaded", (event) => {
   var tiles = document.getElementsByClassName("truchet-cell");
 
-  var colors = ["black", "purple"];
+  var colors = ["black", "black", "purple"];
   var rotations = [0, 90, 180, 270];
 
   for (var i = 0; i < tiles.length; i++) {
